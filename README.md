@@ -1,3 +1,3 @@
 # wenew
 
-Partner Repo
+Partner repo
