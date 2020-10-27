@@ -439,6 +439,32 @@ h6 {
   padding-right: 120px;
 }
 
+@media (max-width: 720px) {
+  h6 {
+    font-size: 25px;
+  }
+  .sponsor {
+    display: -ms-grid;
+    display: grid;
+    height: 100%;
+  }
+  .sponsor img {
+    display: -ms-grid;
+    display: grid;
+    padding: 30px 0px !important;
+    margin: auto;
+  }
+  .box {
+    width: 100%;
+    max-width: 378px;
+  }
+  footer {
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+  }
+}
+
 footer {
   position: relative;
   width: 100%;
