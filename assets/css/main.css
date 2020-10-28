@@ -50,6 +50,8 @@ header {
 header .logo {
   width: 100%;
   max-width: 100px;
+  display: flex;
+  align-items: center;
 }
 header .logo img {
   width: 100%;
@@ -559,6 +561,38 @@ footer .social_link a i:before {
 footer .social_link a i:hover:before {
   color: #fbfbfd;
   background-color: #3d57f4;
+}
+
+.hamburger {
+  width: 100%; max-width: 30px;
+  display: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hamburger img {
+  width: 100%;
+}
+
+@media(max-width: 992px) {
+  .free-trail {
+    display: none;
+  }
+}
+
+@media(max-width: 768px) {
+  header nav a {
+    margin-right: 20px;
+  }
+}
+
+@media(max-width: 580px) {
+  header nav {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
 }
 
 /* !! features !! */
