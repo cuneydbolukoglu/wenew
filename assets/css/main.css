@@ -338,7 +338,6 @@ h6 {
 .caresoul-section {
   position: relative;
   width: 100%;
-  height: 670px;
   padding: 120px 0px;
   background-color: #02031b;
 }
@@ -476,8 +475,7 @@ h6 {
 footer {
   position: relative;
   width: 100%;
-  height: 430px;
-  padding-top: 109px;
+  padding: 109px 0px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#1c143b), to(#111339));
   background-image: linear-gradient(to top, #1c143b, #111339);
 }
