@@ -1,0 +1,350 @@
+/* ////////////////////////////// SIMPLE SECTION | Start ////////////////////////////// */
+
+.simple-section {
+    display: inline-block;
+    width: 100%;
+}
+
+.simple-section .container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.simple-section.bg-color-haiti {
+    background-color: #090a21;
+}
+
+.simple-section.bg-color-ebony {
+    background-color: #0f1029;
+}
+
+/* ////////////////////////////// SIMPLE SECTION | End ////////////////////////////// */
+
+/* ////////////////////////////// COUNTDOWN SECTION | Start ////////////////////////////// */
+
+.countdown-section .container {
+    background-image: url(../images/trusted-picture.png);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.countdown-section article {
+    max-width: 450px;
+}
+
+.countdown-section article h3 {
+    font-size: 60px;
+    font-family: "Poppins-Bold";
+    margin: 0;
+}
+
+.countdown-section article p {
+    font-size: 15px;
+    font-family: "Poppins-Light";
+    line-height: 1.87;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+/* ////////////////////////////// COUNTDOWN SECTION | Start ////////////////////////////// */
+
+/* ////////////////////////////// CARD | Start ////////////////////////////// */
+
+.card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.card figure {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50%;
+    min-width: 700px;
+    height: 430px;
+    margin-right: 100px;
+}
+
+.card figure.background-rotate-rect::before,
+.card figure.background-rotate-rect::after {
+    content: "";
+    position: absolute;
+    width: 590px;
+    height: 590px;
+    opacity: 0.06;
+    border-radius: 50px;
+    background-image: -o-linear-gradient(bottom, #290a59, #3d57f4);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#290a59), to(#3d57f4));
+    background-image: linear-gradient(to top, #290a59, #3d57f4);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: -50px;
+    bottom: 10px;
+}
+
+.card figure.background-rotate-rect::before {
+    left: -50px;
+    bottom: 10px;
+}
+
+.card figure.background-rotate-rect::after {
+    left: -343px;
+    bottom: 113px;
+}
+
+.card figure.background-rect::before {
+    content: "";
+    position: absolute;
+    width: 420px;
+    height: 400px;
+    opacity: 0.06;
+    background-image: -o-linear-gradient(bottom, #290a59, #3d57f4);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#290a59), to(#3d57f4));
+    background-image: linear-gradient(to top, #290a59, #3d57f4);
+    right: -50px;
+    top: -50px;
+}
+
+.card figure img {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+.card article {
+    color: white;
+}
+
+.card article h3 {
+    font-size: 30px;
+    font-family: "Poppins-Bold";
+}
+
+.card article p {
+    font-size: 15px;
+    font-family: "Poppins-Light";
+    line-height: 1.87;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.card article a {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-family: "Poppins-Medium";
+    -webkit-box-shadow: 0px 20px 30px 0 rgba(12, 0, 46, 0.1);
+    box-shadow: 0px 20px 30px 0 rgba(12, 0, 46, 0.1);
+    background-color: #3d57f4;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: background-color, color;
+    -o-transition-property: background-color, color;
+    transition-property: background-color, color;
+}
+
+.card article a:hover {
+    background-color: #2739a0;
+}
+
+.card:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.card:nth-child(even) figure {
+    margin-right: 0;
+}
+
+.card:nth-child(even) article {
+    margin-right: 100px;
+}
+
+.card:nth-child(even) article a {
+    background-color: #ffffff;
+    color: #3d57f4;
+}
+
+.card:nth-child(even) article a:hover {
+    background-color: #3d57f4;
+    color: white;
+}
+
+/* ////////////////////////////// CARD | Start ////////////////////////////// */
+
+/* ////////////////////////////// COUNTDOWN | Start ////////////////////////////// */
+
+.count-down-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.count-down-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.count-down-list li:not(:last-child) {
+    margin-right: 140px;
+}
+
+.count-down-list li strong {
+    font-size: 70px;
+    font-family: "Poppins-Light";
+}
+
+.count-down-list li span {
+    font-size: 16px;
+    font-family: "Poppins-Light";
+}
+
+/* ////////////////////////////// COUNTDOWN | End ////////////////////////////// */
+
+@media screen and (max-width: 1460px) {
+    .simple-section .container {
+        max-width: 1140px;
+    }
+
+    .card figure {
+        min-width: 50%;
+        height: auto;
+    }
+
+    .card figure img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .simple-section .container {
+        width: 960px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .card {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        max-width: 700px;
+        margin: 160px auto;
+    }
+
+    .card:nth-child(even) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .card figure {
+        width: 100%;
+        min-width: initial;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .card:nth-child(even) article {
+        margin-right: 0;
+    }
+
+    .countdown-section .container {
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .simple-section .container {
+        width: 720px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .simple-section .container {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .card {
+        margin: 30px auto;
+    }
+
+    .card:not(:last-child) {
+        margin-bottom: 90px;
+    }
+
+    .card figure.background-rotate-rect::before,
+    .card figure.background-rotate-rect::after,
+    .card figure.background-rect::before {
+        display: none;
+    }
+
+    .card article h3 {
+        font-size: 26px;
+    }
+
+    .card article p {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .countdown-section .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .countdown-section article h3 {
+        font-size: 40px;
+    }
+
+    .countdown-section article p {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .count-down-list li:not(:last-child) {
+        margin-right: 60px;
+    }
+
+    .count-down-list li strong {
+        font-size: 50px;
+    }
+
+    .count-down-list li span {
+        font-size: 14px;
+    }
+}
