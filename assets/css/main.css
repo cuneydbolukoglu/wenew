@@ -296,6 +296,11 @@ header .free-trail:hover::before {
     align-items: center;
     justify-content: center;
   }
+  
+  .get-start_form .form-group {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 #get-start {
@@ -401,7 +406,6 @@ header .free-trail:hover::before {
     width: 100%;
   }
 }
-
 
 h6 {
   font-size: 30px;
