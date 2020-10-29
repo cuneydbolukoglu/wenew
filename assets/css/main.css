@@ -286,27 +286,6 @@ header .free-trail:hover::before {
   margin-bottom: 30px;
 }
 
-@media (max-width: 1200px) {
-  #features .wrapper {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 30px;
-  }
-
-  .features_left {
-    margin: 0 0 50px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .get-start_form .form-group {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 #get-start {
   background-color: #0f1029;
   padding: 110px 0;
@@ -376,39 +355,6 @@ header .free-trail:hover::before {
   background-color: #3d57f4;
   color: #fff;
   font-size: 15px;
-}
-
-@media (max-width: 720px) {
-  .features_cart__wrapper {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
-
-  .features_right__cart {
-    margin-bottom: 30px;
-  }
-
-  .features_right__cart:hover {
-    transform: none;
-  }
-
-  .features_right__cart:first-child {
-    margin-right: 0;
-  }
-
-  #get-start {
-    padding: 110px 30px;
-  }
-
-  .get-start_form .form-group .form-item {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .get-start_form .form-group .form-item input {
-    width: 100%;
-  }
 }
 
 /* ////////////////////////////// SIMPLE SECTION | Start ////////////////////////////// */
@@ -1039,6 +985,60 @@ footer .social_link a i:hover:before {
   }
   .hamburger {
     display: flex;
+  }
+}
+
+@media (max-width: 720px) {
+  .features_cart__wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .features_right__cart {
+    margin-bottom: 30px;
+  }
+
+  .features_right__cart:hover {
+    transform: none;
+  }
+
+  .features_right__cart:first-child {
+    margin-right: 0;
+  }
+
+  #get-start {
+    padding: 110px 30px;
+  }
+
+  .get-start_form .form-group .form-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .get-start_form .form-group .form-item input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #features .wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .features_left {
+    margin: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .get-start_form .form-group {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
